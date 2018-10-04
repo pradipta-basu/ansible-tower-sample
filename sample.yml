@@ -1,0 +1,6 @@
+---
+- name: This is a test playbook
+  host: 10.138.140.24,10.138.140.26,10.138.140.26
+  task:
+  - name: create a file called '/tmp/testfile.txt' with the content 'hello world'.
+    copy: content="hello world\n" dest=/tmp/testfile.txt
