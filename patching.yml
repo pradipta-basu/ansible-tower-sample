@@ -1,5 +1,5 @@
 ---
- - name:Playbook to Patch Linux Servers
+ - name: Playbook to Patch Linux Servers
    hosts: all
    gather_facts: no
    task:
